@@ -21,11 +21,11 @@ public class Types {
 	@Column(type = Type.STRING)
 	private String nom;
 	
-	@OneToMany(mappedBy = "id")
+	@OneToMany()
 	@Column(nullable = true)
 	private ArrayList<Types> faibleContre;
 	
-	@OneToMany(mappedBy = "id")
+	@OneToMany()
 	@Column(nullable = true)
 	private ArrayList<Types> fortContre;
 }
