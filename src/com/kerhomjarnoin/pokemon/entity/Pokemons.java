@@ -17,6 +17,7 @@ import com.tactfactory.harmony.annotation.Id;
 import com.tactfactory.harmony.annotation.OneToOne;
 
 @Entity
+@Rest
 public class Pokemons {
 	@Id
 	@Column(type = Type.INTEGER, hidden = true)

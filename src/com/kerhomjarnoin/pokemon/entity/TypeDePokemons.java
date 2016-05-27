@@ -14,6 +14,7 @@ import com.tactfactory.harmony.annotation.Column.Type;
 import com.tactfactory.harmony.annotation.GeneratedValue.Strategy;
 
 @Entity
+@Rest
 public class TypeDePokemons {
 	@Id
 	@Column(type = Type.INTEGER, hidden = true)
